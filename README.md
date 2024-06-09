@@ -9,22 +9,24 @@ GPU rendering.
 
 An example output from the project:
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="./output/output.jpg" alt="Image 1" style="width: 45%;"/>
-  <img src="./output/output_metal.jpg" alt="Image 2" style="width: 45%;"/>
-</div>
-<p style="text-align: center;">
-    The images are the same, but rendering with pipelining produces the image in less time.
+<p align="center" width="100%">
+    <img width="45%" src="./output/output.jpg" alt="teapot 1" />
+    <img width="45%" src="./output/output_metal.jpg" alt="teapot 2" />
 </p>
+<div style="text-align: center;">
+    The images are the same, but rendering with pipelining produces the image in less time.
+</div>
 
 # Design + Architecture
 Below is a block diagram of the architecture of our project. More specifically, the design for it to run in parallel, or
 concurrently, as opposed to consecutively.
 
-<div style="text-align: center;">
+
+<div style="text-align: center; align: center;">
   <img src="./output/architecture.png" alt="project architecture" style="width: 75%;"/>
   <p>Block diagram of the project architecture.</p>
 </div>
+
 
 
 The sequential version of this project mirrors the original assignment, where the six dx, dy values of the anti-aliasing
