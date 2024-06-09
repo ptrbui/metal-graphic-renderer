@@ -13,9 +13,9 @@ An example output from the project:
     <img width="45%" src="./output/output.jpg" alt="teapot 1" />
     <img width="45%" src="./output/output_metal.jpg" alt="teapot 2" />
 </p>
-<div style="text-align: center;">
+<p align="center">
     The images are the same, but rendering with pipelining produces the image in less time.
-</div>
+</p>
 
 # Design + Architecture
 Below is a block diagram of the architecture of our project. More specifically, the design for it to run in parallel, or
