@@ -1,11 +1,11 @@
 # Rendering and Anti-Aliasing using Apple Metal API and Parallel Pipeline
 
-For this project, the aim was to recreate an extension of a previous project involving rendering a teapot and including
-an anti-aliasing filter, with a focus on performance enhancement. This was achieved by porting the rendering process to
-the GPU and utilizing Apple’s Metal API. The overall goal was to enhance the user experience by accelerating the rendering
-process. The approach involved analyzing the existing rendering pipeline, identifying tasks suitable for GPU offloading,
-and integrating the Apple Metal API into the codebase. Performance was benchmarked by measuring the speedup achieved through
-GPU rendering.
+For this project, the aim was to recreate an extension of a [previous project](https://github.com/ptrbui/3d-graphics-projects)
+involving rendering a teapot and including an anti-aliasing filter, with a focus on performance enhancement. This was achieved
+by porting the rendering process to the GPU and utilizing [Apple’s Metal API](https://developer.apple.com/metal/). The overall
+goal was to enhance the user experience by accelerating the rendering process. The approach involved analyzing the existing
+rendering pipeline, identifying tasks suitable for GPU offloading, and integrating the Apple Metal API into the codebase.
+Performance was benchmarked by measuring the speedup achieved through GPU rendering.
 
 An example output from the project:
 
