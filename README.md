@@ -22,10 +22,12 @@ Below is a block diagram of the architecture of our project. More specifically, 
 concurrently, as opposed to consecutively.
 
 
-<div style="text-align: center; align: center;">
+<p align="center" width="100%">
   <img src="./output/architecture.png" alt="project architecture" style="width: 75%;"/>
-  <p>Block diagram of the project architecture.</p>
-</div>
+</p>
+<p align="center">
+    Block diagram of the project architecture.
+</p>
 
 
 
