@@ -17,7 +17,10 @@ An example output from the project:
     The images are the same, but rendering with pipelining produces the image in less time.
 </p>
 
-# Design + Architecture
+
+
+
+## Design + Architecture
 Below is a block diagram of the architecture of our project. More specifically, the design for it to run in parallel, or
 concurrently, as opposed to consecutively.
 
@@ -28,7 +31,6 @@ concurrently, as opposed to consecutively.
 <p align="center">
     Block diagram of the project architecture.
 </p>
-
 
 
 The sequential version of this project mirrors the original assignment, where the six dx, dy values of the anti-aliasing
@@ -43,6 +45,9 @@ Each teapot image is then resized to a one-dimensional array with a size of widt
 of the image. This array format is necessary for processing by the Metal compute kernel, which is a low-level processor
 contributing to the performance speed. The six arrays are averaged by their corresponding weights to obtain the final combined
 array, which is then used to render the image.
+
+
+
 
 ## Prerequisites
 
